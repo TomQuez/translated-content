@@ -38,25 +38,25 @@ Dans les articles qui suivent, vous allez apprendre à :
 - Utiliser les outils de Django pour créer le squelette d'un site web et d'applications
 - Démarrer et arrêter le serveur de développement.
 - Créer les modèles de données utilisés par les applications.
-- Utiliser les outils d'administration Django du site web pour y enregsitrer et y peupler les données.
+- Utiliser les outils d'administration Django du site web pour y enregistrer et y peupler les données.
 - Créer des vues pour exploiter en fonction de demandes particulières et restituer à l'aide de modèles les informations dans des documents HTML affichés par votre navigateur.
 - Créer les chemins pour associer des URL avec des vues particulières.
 - Ajouter et gérer les autorisations et le contrôle d'accès au site des utilisateurs.
 - Manipuler les formulaires.
-- Ecrire des jeux de test pour votre application.
+- Ecrire des jeux de tests pour votre application.
 - Utiliser les moyens de sécurité de Django.
-- Déployer en production vote application.
+- Déployer en production votre application.
 
-Que vous ayez déjà des connaissance sur le sujet ou que vous ayez aborder succinctement ce quadriciel, à la fin de cette série didactique, vous serez suffisamment autonome pour développer vos propres applications avec Django.
+Que vous ayez déjà des connaissance sur le sujet ou que vous ayez aborder succinctement ce cadriciel, à la fin de cette série didactique, vous serez suffisamment autonome pour développer vos propres applications avec Django.
 
 ## Le site web de la "Bibliothèque locale"
 
 La _LocalLibrary_ (Bibliothèque locale) est le nom du site web qui va être créer et qui évoluera tout au long de cette série didatcique. La finalité de ce site web est de diffuser un catalogue des livres en ligne et de permettre aux utilisateurs de le parcourir et de gérer leur propre compte.
 
-Cet exemple a été soigneusement choisi car il permet de progresser en montrant nombre de détails et abordre presque toutes les fonctionnalités de Django. De plus, cet exemple permet d'appréhender progressivement les fonctionnalités les plus importantes du quadriciel :
+Cet exemple a été soigneusement choisi car il permet de progresser en montrant nombre de détails et aborde presque toutes les fonctionnalités de Django. De plus, cet exemple permet d'appréhender progressivement les fonctionnalités les plus importantes du quadriciel :
 
 - Une première étape consistera à définir un catalogue simple qui permet aux utilisateurs de consulter les ouvrages disponibles. Cela combine les schémas classiques et les opérations communes à la plupart de ce type de sites : lire et afficher le contenu d'une base de données...
-- La progression des différents articles permettra d'étudier des fonctions plus avancées du quadriciel. Par exemple, utiliser des formulaires et permettre aux utilisateurs de réserver leurs ouvrages, ceci conduit à mettre en place et utiliser la gestion des utilisateurs et de l'authentification.
+- La progression des différents articles permettra d'étudier des fonctions plus avancées du cadriciel. Par exemple, utiliser des formulaires et permettre aux utilisateurs de réserver leurs ouvrages, ceci conduit à mettre en place et utiliser la gestion des utilisateurs et de l'authentification.
 
 Même s'il s'agit d'un sujet extensible, son sujet de _Bibliothèque **locale**_ est volontaire. Il s'agit d'aborder rapidement de nombreux sujets de Django en manipulant un minimum d'information. Il s'agit d'enregistrer localement les informations fictives sur les livres, copies, auteurs, etc. Il ne s'agit en aucun cas d'élaborer un produit qui gère, comme pourrait le faire une bibliothèque classique d'autres informations, ni gérer un réseau de bibliothèques comme cela pourrait être le cas avec une _**grande** biblothèque_.
 
@@ -68,6 +68,6 @@ Si vous êtes coincé, vous pourrez trouver une version totalement développée 
 
 ## Résumé
 
-Vous en savez plus sur le projet _LocalLibrary_ et ce que vous allez progressivement apprendre, il est désormais temps de créer le [squellette du projet](/fr/docs/Learn/Server-side/Django/skeleton_website) qui hébergera la bibliothèque.
+Vous en savez plus sur le projet _LocalLibrary_ et ce que vous allez progressivement apprendre, il est désormais temps de créer le [squelette du projet](/fr/docs/Learn/Server-side/Django/skeleton_website) qui hébergera la bibliothèque.
 
 {{PreviousMenuNext("Learn/Server-side/Django/development_environment", "Learn/Server-side/Django/skeleton_website", "Learn/Server-side/Django")}}
